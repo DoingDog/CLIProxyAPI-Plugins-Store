@@ -325,6 +325,21 @@
         "Export",
         "Codex"
       ]
+    },
+    {
+      "id": "quota-router",
+      "name": "Quota Router",
+      "description": "Routes protected Claude model requests away from OAuth accounts that reach a configurable seven-day usage cutoff, with request-triggered quota refreshes and authenticated status reporting.",
+      "author": "Smarty Pants Inc",
+      "repository": "https://github.com/Smarty-Pants-Inc/cpa-plugin-quota-router",
+      "homepage": "https://github.com/Smarty-Pants-Inc/cpa-plugin-quota-router",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Router",
+        "Usage",
+        "Claude"
+      ]
     }
   ]
 }
