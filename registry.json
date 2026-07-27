@@ -356,6 +356,21 @@
         "Auth",
         "Codex"
       ]
+    },
+    {
+      "id": "anti-model-fallback",
+      "name": "Anti Model Fallback",
+      "description": "Blocks upstream model fallback: detects when a different model served the request, retries until the processing model matches the requested one, and returns an error once the retry budget is exhausted.",
+      "author": "lkangd",
+      "version": "0.1.1",
+      "repository": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "homepage": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "license": "MIT",
+      "tags": [
+        "Model Router",
+        "Executor",
+        "Fallback"
+      ]
     }
   ]
 }
