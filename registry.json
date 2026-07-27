@@ -356,6 +356,23 @@
         "Auth",
         "Codex"
       ]
+    },
+    {
+      "id": "cpa-quota-api-extension",
+      "name": "CPA Quota API Extension",
+      "description": "Exports sanitized, provider-neutral quota data for the CLIProxyAPI credential pool through authenticated Management API endpoints for dashboards and monitoring automation.",
+      "author": "dinhkarate",
+      "version": "0.1.0",
+      "repository": "https://github.com/dinhkarate/cpa-quota-api-extension",
+      "homepage": "https://github.com/dinhkarate/cpa-quota-api-extension",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Quota",
+        "Monitoring",
+        "API"
+      ]
     }
   ]
 }
