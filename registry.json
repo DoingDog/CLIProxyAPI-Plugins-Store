@@ -362,7 +362,7 @@
       "name": "Codex PAT",
       "description": "Validates and imports Codex Personal Access Tokens as CPA-compatible credentials, with a Management-key-protected bilingual UI.",
       "author": "Ca11back",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "repository": "https://github.com/Ca11back/codex-pat",
       "homepage": "https://github.com/Ca11back/codex-pat",
       "license": "MIT",
