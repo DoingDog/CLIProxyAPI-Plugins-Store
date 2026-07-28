@@ -358,6 +358,20 @@
       ]
     },
     {
+      "id": "opencode-cloak",
+      "name": "OpenCode Cloak",
+      "description": "Rewrites opencode CLI requests to carry a Claude Code billing header and fingerprint while preserving opencode's own system prompt, so a Claude OAuth subscription proxied through CPA is not flagged as third-party traffic.",
+      "author": "conversun",
+      "repository": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
+      "homepage": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Claude",
+        "OpenCode"
+      ]
+    },
+    {
       "id": "cpa-apply-patch",
       "name": "Apply Patch Bridge",
       "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy. | 让 Codex 客户端在 Claude 等不支持 freeform custom 工具的后端上恢复原生 apply_patch:请求方向把 custom 工具改写为 {\"input\": string} 函数工具,响应方向还原 custom_tool_call 事件族,结构化补丁编辑、差异审核卡与一键撤销对代理后的所有模型可用。",
