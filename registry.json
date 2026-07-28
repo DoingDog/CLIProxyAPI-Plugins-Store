@@ -358,6 +358,21 @@
       ]
     },
     {
+      "id": "anti-model-fallback",
+      "name": "Anti Model Fallback",
+      "description": "Blocks upstream model fallback: detects when a different model served the request, retries until the processing model matches the requested one, and returns an error once the retry budget is exhausted.",
+      "author": "lkangd",
+      "version": "0.1.1",
+      "repository": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "homepage": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "license": "MIT",
+      "tags": [
+        "Model Router",
+        "Executor",
+        "Fallback"
+      ]
+    },
+    {
       "id": "opencode-cloak",
       "name": "OpenCode Cloak",
       "description": "Rewrites opencode CLI requests to carry a Claude Code billing header and fingerprint while preserving opencode's own system prompt, so a Claude OAuth subscription proxied through CPA is not flagged as third-party traffic.",
