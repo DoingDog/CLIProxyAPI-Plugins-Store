@@ -435,6 +435,22 @@
       ]
     },
     {
+      "id": "credential-priority",
+      "name": "Credential Priority",
+      "description": "Automatically sorts Antigravity, Codex, and xAI credentials by fresh quota evidence.",
+      "author": "Cody292",
+      "version": "1.1.0",
+      "repository": "https://github.com/Cody292/credential-priority",
+      "homepage": "https://github.com/Cody292/credential-priority",
+      "license": "MIT",
+      "tags": [
+        "Credential",
+        "Priority",
+        "Quota",
+        "Management"
+      ]
+    },
+    {
       "id": "codex-pat",
       "name": "Codex PAT",
       "description": "Validates and imports Codex Personal Access Tokens as CPA-compatible credentials, with a Management-key-protected bilingual UI.",
