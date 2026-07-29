@@ -412,6 +412,7 @@
       "description": "Rewrites opencode CLI requests to carry a Claude Code billing header and fingerprint while preserving opencode's own system prompt, so a Claude OAuth subscription proxied through CPA is not flagged as third-party traffic.",
       "author": "conversun",
       "repository": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
+      "logo": "https://raw.githubusercontent.com/conversun/cliproxy-plugin-opencode-cloak/main/assets/logo.png",
       "homepage": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
       "license": "MIT",
       "tags": [
