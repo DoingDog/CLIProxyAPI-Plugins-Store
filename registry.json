@@ -373,6 +373,81 @@
         "antigravity",
         "management"
       ]
+    },
+    {
+      "id": "cpa-quota-api-extension",
+      "name": "CPA Quota API Extension",
+      "description": "Exports sanitized, provider-neutral quota data for the CLIProxyAPI credential pool through authenticated Management API endpoints for dashboards and monitoring automation.",
+      "author": "dinhkarate",
+      "version": "0.1.0",
+      "repository": "https://github.com/dinhkarate/cpa-quota-api-extension",
+      "homepage": "https://github.com/dinhkarate/cpa-quota-api-extension",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Quota",
+        "Monitoring",
+        "API"
+      ]
+    },
+    {
+      "id": "anti-model-fallback",
+      "name": "Anti Model Fallback",
+      "description": "Blocks upstream model fallback: detects when a different model served the request, retries until the processing model matches the requested one, and returns an error once the retry budget is exhausted.",
+      "author": "lkangd",
+      "version": "0.1.1",
+      "repository": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "homepage": "https://github.com/lkangd/cpa-plugin-anti-model-fallback",
+      "license": "MIT",
+      "tags": [
+        "Model Router",
+        "Executor",
+        "Fallback"
+      ]
+    },
+    {
+      "id": "opencode-cloak",
+      "name": "OpenCode Cloak",
+      "description": "Rewrites opencode CLI requests to carry a Claude Code billing header and fingerprint while preserving opencode's own system prompt, so a Claude OAuth subscription proxied through CPA is not flagged as third-party traffic.",
+      "author": "conversun",
+      "repository": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
+      "homepage": "https://github.com/conversun/cliproxy-plugin-opencode-cloak",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Claude",
+        "OpenCode"
+      ]
+    },
+    {
+      "id": "cpa-apply-patch",
+      "name": "Apply Patch Bridge",
+      "description": "Bridges the Codex client's native apply_patch tool to backends without freeform custom-tool support (Claude, etc.): rewrites custom tools into {\"input\": string} function tools on the request path and restores custom_tool_call events on the response path, so structured patch edits, diff review cards, and one-click undo work for every model behind the proxy. | 让 Codex 客户端在 Claude 等不支持 freeform custom 工具的后端上恢复原生 apply_patch:请求方向把 custom 工具改写为 {\"input\": string} 函数工具,响应方向还原 custom_tool_call 事件族,结构化补丁编辑、差异审核卡与一键撤销对代理后的所有模型可用。",
+      "author": "zhangziming1124",
+      "repository": "https://github.com/zhangziming1124/cpa-apply-patch",
+      "homepage": "https://github.com/zhangziming1124/cpa-apply-patch",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Codex",
+        "Claude"
+      ]
+    },
+    {
+      "id": "codex-pat",
+      "name": "Codex PAT",
+      "description": "Validates and imports Codex Personal Access Tokens as CPA-compatible credentials, with a Management-key-protected bilingual UI.",
+      "author": "Ca11back",
+      "version": "0.1.5",
+      "repository": "https://github.com/Ca11back/codex-pat",
+      "homepage": "https://github.com/Ca11back/codex-pat",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Codex"
+      ]
     }
   ]
 }
