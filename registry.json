@@ -465,6 +465,21 @@
         "Auth",
         "Codex"
       ]
+    },
+    {
+      "id": "sub2api-balance",
+      "name": "Sub2API Balance",
+      "description": "Tracks balances, quotas, usage, billing multipliers, and peak billing windows for selected Sub2API-backed CPA providers in a management dashboard.",
+      "author": "wi1shu",
+      "repository": "https://github.com/wi1shu7/cpa-plugin-sub2api-balance",
+      "homepage": "https://github.com/wi1shu7/cpa-plugin-sub2api-balance",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Sub2API",
+        "Dashboard"
+      ]
     }
   ]
 }
