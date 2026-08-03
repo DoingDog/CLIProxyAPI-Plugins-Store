@@ -162,7 +162,7 @@
       "name": "CPA Session Archive",
       "description": "Archives CPA requests as deduplicated sessions and agent turns, with a multilingual management UI for faceted browsing, diagnostics, and streaming training-data exports.",
       "author": "linonetwo",
-      "version": "0.7.6",
+      "version": "0.7.8",
       "repository": "https://github.com/linonetwo/cpa-session-archive",
       "homepage": "https://github.com/linonetwo/cpa-session-archive",
       "license": "MIT",
