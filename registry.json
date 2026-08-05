@@ -465,6 +465,21 @@
         "Auth",
         "Codex"
       ]
+    },
+    {
+      "id": "key-model-access",
+      "name": "Key Model Access",
+      "description": "Provides exclusive downstream API key authentication with per-key model allow and deny policies, plus a Management-key-protected settings UI.",
+      "author": "Supra4E8C",
+      "version": "0.0.1",
+      "repository": "https://github.com/LTbinglingfeng/key-model-access",
+      "homepage": "https://github.com/LTbinglingfeng/key-model-access",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Security"
+      ]
     }
   ]
 }
