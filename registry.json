@@ -471,7 +471,7 @@
       "name": "Grok Egress Guard",
       "description": "CPA-native Grok/xAI egress node management with sticky proxy binding, passive and active quality probes, quarantine migration, and a management dashboard for degraded-output recovery.",
       "author": "lij768423-svg",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "repository": "https://github.com/lij768423-svg/grok2api-egress-enhancements",
       "homepage": "https://github.com/lij768423-svg/grok2api-egress-enhancements/tree/main/cpa-plugin",
       "license": "MIT",
