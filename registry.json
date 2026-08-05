@@ -471,7 +471,7 @@
       "name": "GitHub Copilot Provider",
       "description": "Adds GitHub Copilot subscription models to CLIProxyAPI through GitHub device-code OAuth, dynamic model discovery, and Claude Messages translation.",
       "author": "Arthur Sommer",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "repository": "https://github.com/arthur-sommer-etc/cliproxyapi-copilot-plugin",
       "homepage": "https://github.com/arthur-sommer-etc/cliproxyapi-copilot-plugin",
       "license": "MIT",
