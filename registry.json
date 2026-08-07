@@ -495,6 +495,22 @@
         "Vision",
         "DeepSeek"
       ]
+    },
+    {
+      "id": "codex-localcompact",
+      "name": "Codex Local Compact",
+      "description": "Emulates Codex Responses Remote Compaction V2 for configured DeepSeek and OpenAI-compatible models through CPA's host model API.",
+      "author": "JHXSMatthew",
+      "version": "0.1.2",
+      "repository": "https://github.com/JHXSMatthew/codex-localcompact",
+      "homepage": "https://github.com/JHXSMatthew/codex-localcompact",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Codex",
+        "Compaction",
+        "OpenAI"
+      ]
     }
   ]
 }
