@@ -482,6 +482,25 @@
       ]
     },
     {
+      "id": "grok2api-egress",
+      "name": "Grok Egress Guard",
+      "description": "CPA-native Grok/xAI egress node management with sticky proxy binding, passive and active quality probes, quarantine migration, and a management dashboard for degraded-output recovery.",
+      "author": "lij768423-svg",
+      "version": "1.0.8",
+      "repository": "https://github.com/lij768423-svg/grok2api-egress-enhancements",
+      "homepage": "https://github.com/lij768423-svg/grok2api-egress-enhancements/tree/main/cpa-plugin",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Grok",
+        "xAI",
+        "Egress",
+        "Proxy",
+        "Quality"
+      ]
+    },
+    {
       "id": "codex-auto-reset",
       "name": "Codex Auto Reset",
       "description": "Automatically redeems soonest-expiring Codex Reset Bank credits before they expire, with idempotent retry, triple verification, and a bilingual management UI with reset statistics.",
