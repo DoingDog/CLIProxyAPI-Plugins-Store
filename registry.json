@@ -479,6 +479,52 @@
         "Management",
         "Codex"
       ]
+    },
+    {
+      "id": "key-model-access",
+      "name": "Key Model Access",
+      "description": "Provides exclusive downstream API key authentication with per-key model allow and deny policies, plus a Management-key-protected settings UI.",
+      "author": "Supra4E8C",
+      "version": "0.0.1",
+      "repository": "https://github.com/LTbinglingfeng/key-model-access",
+      "homepage": "https://github.com/LTbinglingfeng/key-model-access",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Auth",
+        "Security"
+      ]
+    },
+    {
+      "id": "deepseek-vision",
+      "name": "DeepSeek Vision",
+      "description": "Adds reliable image understanding to text-only DeepSeek models by analyzing request images with a host-configured vision model and transparently replacing them with visual context.",
+      "author": "Zesuy",
+      "version": "0.2.0",
+      "repository": "https://github.com/Zesuy/Plugin-Deepseek-Vision",
+      "homepage": "https://github.com/Zesuy/Plugin-Deepseek-Vision",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Vision",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "codex-localcompact",
+      "name": "Codex Local Compact",
+      "description": "Emulates Codex Responses Remote Compaction V2 for configured DeepSeek and OpenAI-compatible models through CPA's host model API.",
+      "author": "JHXSMatthew",
+      "version": "0.1.2",
+      "repository": "https://github.com/JHXSMatthew/codex-localcompact",
+      "homepage": "https://github.com/JHXSMatthew/codex-localcompact",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Codex",
+        "Compaction",
+        "OpenAI"
+      ]
     }
   ]
 }
