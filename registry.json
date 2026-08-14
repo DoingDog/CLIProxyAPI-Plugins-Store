@@ -621,9 +621,9 @@
     {
       "id": "cpa-quota-estimator",
       "name": "CPA Quota Estimator",
-      "description": "Estimates Codex weekly Token and USD-equivalent quota capacity from real quota growth, with burn-rate forecasts, historical windows, and a bilingual dashboard.",
+      "description": "Tracks Codex quota cycles and monthly usage across scheduled or early resets, with Token/USD-equivalent capacity and burn forecasts in a bilingual dashboard.",
       "author": "Autsunset",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "repository": "https://github.com/Autsunset/cpa-quota-estimator",
       "logo": "https://raw.githubusercontent.com/Autsunset/cpa-quota-estimator/main/logo.png",
       "homepage": "https://github.com/Autsunset/cpa-quota-estimator",
