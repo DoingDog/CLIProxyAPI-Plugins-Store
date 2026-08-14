@@ -617,6 +617,24 @@
         "Model Router",
         "Fallback"
       ]
+    },
+    {
+      "id": "cpa-quota-estimator",
+      "name": "CPA Quota Estimator",
+      "description": "Estimates Codex weekly Token and USD-equivalent quota capacity from real quota growth, with burn-rate forecasts and an embedded dashboard.",
+      "author": "Autsunset",
+      "version": "0.1.0",
+      "repository": "https://github.com/Autsunset/cpa-quota-estimator",
+      "logo": "https://raw.githubusercontent.com/Autsunset/cpa-quota-estimator/main/logo.png",
+      "homepage": "https://github.com/Autsunset/cpa-quota-estimator",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Quota",
+        "Codex",
+        "Dashboard"
+      ]
     }
   ]
 }
