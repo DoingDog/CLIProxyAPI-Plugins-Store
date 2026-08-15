@@ -617,6 +617,21 @@
         "Model Router",
         "Fallback"
       ]
+    },
+    {
+      "id": "cpa-codex-compact-bridge",
+      "name": "Codex Compact Bridge",
+      "description": "Bridges Codex remote compaction V1 and V2 for configured third-party models while preserving native compaction passthrough per model.",
+      "author": "patrick-fu",
+      "repository": "https://github.com/patrick-fu/cpa-codex-compact-bridge",
+      "homepage": "https://github.com/patrick-fu/cpa-codex-compact-bridge",
+      "license": "MIT",
+      "tags": [
+        "Executor",
+        "Interceptor",
+        "Codex",
+        "Compaction"
+      ]
     }
   ]
 }
