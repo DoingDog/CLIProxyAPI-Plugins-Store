@@ -617,6 +617,21 @@
         "Model Router",
         "Fallback"
       ]
+    },
+    {
+      "id": "deepseek-harness-session",
+      "name": "DeepSeek Harness Session Affinity",
+      "description": "Maps X-DeepSeek-Harness-Session-Id to X-Session-ID so deepseek-harness clients get stable session-affinity caching instead of unstable derived identities.",
+      "author": "ahoo",
+      "version": "0.1.1",
+      "repository": "https://github.com/ahoo/cliproxy-plugins",
+      "homepage": "https://github.com/ahoo/cliproxy-plugins",
+      "license": "MIT",
+      "tags": [
+        "deepseek",
+        "session-affinity",
+        "harness"
+      ]
     }
   ]
 }
