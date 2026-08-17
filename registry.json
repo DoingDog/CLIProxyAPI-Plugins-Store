@@ -623,7 +623,7 @@
       "name": "CPA Quota Estimator",
       "description": "Tracks Codex quota cycles and monthly usage across scheduled or early resets, with Token/USD-equivalent capacity and burn forecasts in a bilingual dashboard.",
       "author": "Autsunset",
-      "version": "0.4.1",
+      "version": "0.4.5",
       "repository": "https://github.com/Autsunset/cpa-quota-estimator",
       "logo": "https://raw.githubusercontent.com/Autsunset/cpa-quota-estimator/main/logo.png",
       "homepage": "https://github.com/Autsunset/cpa-quota-estimator",
