@@ -632,6 +632,40 @@
         "Codex",
         "Compaction"
       ]
+    },
+    {
+      "id": "cpa-quota-estimator",
+      "name": "CPA Quota Estimator",
+      "description": "Tracks Codex quota cycles and monthly usage across scheduled or early resets, with Token/USD-equivalent capacity and burn forecasts in a bilingual dashboard.",
+      "author": "Autsunset",
+      "version": "0.4.6",
+      "repository": "https://github.com/Autsunset/cpa-quota-estimator",
+      "logo": "https://raw.githubusercontent.com/Autsunset/cpa-quota-estimator/main/logo.png",
+      "homepage": "https://github.com/Autsunset/cpa-quota-estimator",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Usage",
+        "Quota",
+        "Codex",
+        "Dashboard"
+      ]
+    },
+    {
+      "id": "codex-switch-safe",
+      "name": "Codex Switch Safe",
+      "description": "Preserves Codex encrypted reasoning only on the same selected credential route and strips unsafe route-bound state during dynamic upstream switching.",
+      "author": "Rat0323",
+      "version": "0.2.0",
+      "repository": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
+      "homepage": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Security",
+        "Codex",
+        "Responses"
+      ]
     }
   ]
 }
