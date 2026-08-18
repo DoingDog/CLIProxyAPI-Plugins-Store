@@ -619,6 +619,21 @@
       ]
     },
     {
+      "id": "deepseek-harness-session",
+      "name": "DeepSeek Harness Session Affinity",
+      "description": "Maps X-DeepSeek-Harness-Session-Id to X-Session-ID so deepseek-harness clients get stable session-affinity caching instead of unstable derived identities.",
+      "author": "ahoo",
+      "version": "0.1.1",
+      "repository": "https://github.com/ahoo/cliproxy-plugins",
+      "homepage": "https://github.com/ahoo/cliproxy-plugins",
+      "license": "MIT",
+      "tags": [
+        "deepseek",
+        "session-affinity",
+        "harness"
+      ]
+    },
+    {
       "id": "credit-manager",
       "name": "CPA Credit Manager",
       "description": "Secure, usage-based credit management for CLIProxyAPI: issue isolated API keys, enforce per-key spending limits, settle costs from actual token usage, and manage pricing, usage, and audit records from one console.",
