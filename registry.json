@@ -619,6 +619,23 @@
       ]
     },
     {
+      "id": "antigravity-priority",
+      "name": "Antigravity Smart Priority",
+      "description": "Intelligent dual-window quota pacing, Weekly Urgency scheduler, and Dynamic Boost Horizon optimizer for Google Antigravity credentials.",
+      "author": "ygq-future",
+      "version": "1.0.1",
+      "repository": "https://github.com/ygq-future/antigravity-priority",
+      "homepage": "https://github.com/ygq-future/antigravity-priority",
+      "license": "MIT",
+      "tags": [
+        "Scheduler",
+        "Priority",
+        "Quota",
+        "Antigravity",
+        "Management"
+      ]
+    },
+    {
       "id": "quota-center",
       "name": "Quota Center",
       "description": "A native CLIProxyAPI management plugin that consolidates Zhipu, MiniMax, Ark, OpenCode Go, Codex, Gemini, and Grok quota windows with masked credentials and CPA-native authentication.",
