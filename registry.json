@@ -619,6 +619,23 @@
       ]
     },
     {
+      "id": "quota-center",
+      "name": "Quota Center",
+      "description": "A native CLIProxyAPI management plugin that consolidates Zhipu, MiniMax, Ark, OpenCode Go, Codex, Gemini, and Grok quota windows with masked credentials and CPA-native authentication.",
+      "author": "RayenAlex",
+      "version": "0.2.1",
+      "repository": "https://github.com/RayenAlex/quota-center",
+      "logo": "https://raw.githubusercontent.com/RayenAlex/quota-center/main/docs/images/quota-center-logo.svg",
+      "homepage": "https://github.com/RayenAlex/quota-center",
+      "license": "MIT",
+      "tags": [
+        "Management",
+        "Quota",
+        "Usage",
+        "Dashboard"
+      ]
+    },
+    {
       "id": "deepseek-harness-session",
       "name": "DeepSeek Harness Session Affinity",
       "description": "Maps X-DeepSeek-Harness-Session-Id to X-Session-ID so deepseek-harness clients get stable session-affinity caching instead of unstable derived identities.",
