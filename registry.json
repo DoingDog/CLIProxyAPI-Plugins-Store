@@ -635,6 +635,22 @@
         "Codex",
         "Dashboard"
       ]
+    },
+    {
+      "id": "codex-switch-safe",
+      "name": "Codex Switch Safe",
+      "description": "Preserves Codex encrypted reasoning only on the same selected credential route and strips unsafe route-bound state during dynamic upstream switching.",
+      "author": "Rat0323",
+      "version": "0.2.0",
+      "repository": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
+      "homepage": "https://github.com/Rat0323/cpa-plugin-codex-switch-safe",
+      "license": "MIT",
+      "tags": [
+        "Interceptor",
+        "Security",
+        "Codex",
+        "Responses"
+      ]
     }
   ]
 }
