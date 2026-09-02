@@ -738,7 +738,7 @@
       "name": "CPA Key Billing",
       "description": "Adds downstream API key billing with subscription quotas, model access controls, concurrency limits, and an embedded management UI.",
       "author": "haowang02",
-      "version": "0.8.4",
+      "version": "1.0.0",
       "repository": "https://github.com/haowang02/cpa-plugin-key-billing",
       "homepage": "https://github.com/haowang02/cpa-plugin-key-billing",
       "license": "MIT",
